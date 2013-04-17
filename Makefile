@@ -2,6 +2,8 @@ FILE = digitacao
 
 all :
 	pdflatex $(FILE).tex
+	makeindex $(FILE).tex
+	pdflatex $(FILE).tex
 	make clean
 
 clean:
