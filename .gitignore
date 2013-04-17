@@ -1,1 +1,5 @@
-digitacao.pdf
+*.pdf
+*.aux
+*.log
+*.out
+*.toc
